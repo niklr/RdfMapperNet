@@ -1,0 +1,22 @@
+﻿{
+  "namespaces": {
+    "ns1": "http://www.smir.ch/api/",
+    "ns2": "http://www.virtualskeleton.ch/schema/rdf-mapping#",
+    "ns3": "http://www.virtualskeleton.ch/schema/metadata4data#"
+  },
+  "map": {
+    "ns2:s_object_uri": "ns1:objects/{id}",
+    "ns2:o_object_rdf_type": "ns3:object",
+    "ns2:p_object_id": "ns3:object_id",
+    "ns2:p_object_type": "ns3:object_type",
+    "ns2:p_object_created_date": "ns3:object_created_date",
+    "ns2:p_object_description": "ns3:object_description",
+    "ns2:p_object_file": "ns3:object_file",
+    "ns2:p_object_anatomical_region": "ns3:object_anatomical_region",
+    "ns2:p_object_segmentation_method_description": "ns3:object_segmentation_method_description",
+
+    "ns2:s_file_uri": "ns1:files/{id}",
+    "ns2:o_file_rdf_type": "ns3:file",
+    "ns2:p_file_id": "ns3:file_id"
+  }
+}
